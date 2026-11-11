@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VibeTech — technology for your everyday. Explore our collection of desk essentials, audio and wearables.">
+  <title>VibeTech | Tech that fits your vibe</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body id="home">
+  <a class="skip-link" href="#products">Skip to products</a>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="VibeTech home"><span class="logo-mark" aria-hidden="true">V</span>Vibe<span>Tech</span></a>
+      <div class="nav-links">
+        <a href="#home">Home</a><a href="#products">Products</a><a href="#deals">Deals</a><a href="#about">About</a>
+      </div>
+      <div class="nav-actions">
+        <button class="icon-button" id="search-toggle" aria-label="Search products" aria-expanded="false" aria-controls="search-panel"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></button>
+        <button class="icon-button cart-button" id="cart-toggle" aria-label="View cart, 0 items" aria-expanded="false" aria-controls="cart-panel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 3h3l3 12h11l2-9H6"/><circle cx="9" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg><span id="cart-count" aria-hidden="true">0</span></button>
+      </div>
+    </nav>
+    <div class="search-panel container" id="search-panel" hidden><label for="search">Find your next essential</label><input type="search" id="search" placeholder="Search products…"></div>
+  </header>
+
+  <main>
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-content"><p class="eyebrow"><span aria-hidden="true">✦</span> UPGRADE YOUR EVERYDAY</p><h1 id="hero-title">Tech that fits<br>your <span>vibe.</span></h1><p class="hero-description">Smart essentials. Better experiences. Discover thoughtfully selected tech for the way you work, play and live.</p><a class="primary-button" href="#products">Explore products <span aria-hidden="true">↗</span></a><p class="hero-note">Made for your setup. Designed for your life.</p></div>
+      <div class="hero-visual"><div class="orbit" aria-hidden="true"></div><img src="images/headphone.png" width="800" height="600" alt="Black over-ear headphones on a light desktop" fetchpriority="high"><span class="hero-label"><span class="status-dot" aria-hidden="true"></span> Find your focus.</span></div>
+    </section>
+
+    <section class="products-section container" id="products" aria-labelledby="products-title">
+      <div class="section-heading"><div><p class="eyebrow">THE VIBETECH COLLECTION</p><h2 id="products-title">Your next essentials.</h2></div><p>Good tech. Great vibes.</p></div>
+      <div class="collection-bar"><span>Curated for your everyday</span><span id="product-count">8 products</span></div>
+      <div class="product-grid">
+        <article class="product-card"><div class="product-image"><span class="badge hot">Hot</span><img src="images/mouse.png" width="800" height="600" alt="Wireless computer mouse" loading="lazy"></div><div class="product-info"><p class="category">ACCESSORIES</p><h3>Wireless Mouse</h3><div class="card-bottom"><p class="price">$59.00</p><button class="add-button" data-price="59">Add to Cart <span aria-hidden="true">+</span></button></div></div></article>
+        <article class="product-card"><div class="product-image"><span class="badge new">New</span><img src="images/keyboard.png" width="800" height="600" alt="White keyboard on a wooden desk" loading="lazy"></div><div class="product-info"><p class="category">KEYBOARDS</p><h3>Tactic K85 Mechanical</h3><div class="card-bottom"><p class="price">$129.00</p><button class="add-button" data-price="129">Add to Cart <span aria-hidden="true">+</span></button></div></div></article>
+        <article class="product-card"><div class="product-image"><span class="badge hot">Hot</span><img src="images/headphone.png" width="800" height="600" alt="Black over-ear wireless headphones" loading="lazy"></div><div class="product-info"><p class="category">AUDIO</p><h3>ZenSound ANC Headset</h3><div class="card-bottom"><p class="price">$189.00</p><button class="add-button" data-price="189">Add to Cart <span aria-hidden="true">+</span></button></div></div></article>
+        <article class="product-card"><div class="product-image"><span class="badge new">New</span><img src="images/smartwatch.png" width="800" height="600" alt="Two watches with light-colored straps" loading="lazy"></div><div class="product-info"><p class="category">WEARABLES</p><h3>NovaFit Smart Watch</h3><div class="card-bottom"><p class="price">$99.00</p><button class="add-button" data-price="99">Add to Cart <span aria-hidden="true">+</span></button></div></div></article>
+        <article class="product-card"><div class="product-image"><img src="images/monitor.png" width="800" height="600" alt="Desktop monitor on a desk" loading="lazy"></div><div class="product-info"><p class="category">DISPLAYS</p><h3>Horizon 27&quot; IPS QHD Display</h3><div class="card-bottom"><p class="price">$299.00</p><button class="add-button" data-price="299">Add to Cart <span aria-hidden="true">+</span></button></div></div></article>
+        <article class="product-card"><div class="product-image"><img src="images/microphone.png" width="800" height="600" alt="Studio recording microphone" loading="lazy"></div><div class="product-info"><p class="category">AUDIO</p><h3>StreamMic Pro Cardioid</h3><div class="card-bottom"><p class="price">$149.00</p><button class="add-button" data-price="149">Add to Cart <span aria-hidden="true">+</span></button></div></div></article>
+        <article class="product-card" id="deals"><div class="product-image"><span class="badge sale">Sale</span><img src="images/lamp.png" width="800" height="600" alt="Desk lamp lighting a workspace" loading="lazy"></div><div class="product-info"><p class="category">SMART HOME</p><h3>Lumos RGB Smart Desk Lamp</h3><div class="card-bottom"><p class="price">$45.00</p><button class="add-button" data-price="45">Add to Cart <span aria-hidden="true">+</span></button></div></div></article>
+        <article class="product-card"><div class="product-image"><img src="images/laptop-stand.png" width="800" height="600" alt="Laptop on an elevated desk stand" loading="lazy"></div><div class="product-info"><p class="category">DESK ESSENTIALS</p><h3>ErgoStand Aluminum Laptop Riser</h3><div class="card-bottom"><p class="price">$69.00</p><button class="add-button" data-price="69">Add to Cart <span aria-hidden="true">+</span></button></div></div></article>
+      </div>
+      <p id="empty-results" hidden>No products found. Try another search.</p>
+    </section>
+    <section class="about container" id="about"><div><p class="eyebrow">A LITTLE MORE VIBE</p><h2>Everyday tech. Thoughtfully chosen.</h2></div><p>From your first morning playlist to your last big idea, VibeTech brings your setup together. Explore essentials for a more connected everyday.</p></section>
+  </main>
+  <footer class="container"><a class="logo" href="#home">Vibe<span>Tech</span></a><p>© 2026 VibeTech. Lab 2 — Responsive Landing Page.</p><a href="#home">Back to top ↑</a></footer>
+  <aside class="cart-panel" id="cart-panel" aria-labelledby="cart-title" hidden><div class="cart-heading"><h2 id="cart-title">Your cart</h2><button class="icon-button" id="cart-close" aria-label="Close cart">×</button></div><p class="cart-disclaimer">Assignment demo — no orders or payments.</p><ul id="cart-items"></ul><p class="cart-total">Total <strong id="cart-total">$0.00</strong></p><button class="add-button" id="cart-clear">Clear cart</button></aside>
+  <p class="toast" id="status" role="status" aria-live="polite"></p>
+</body>
+</html>
