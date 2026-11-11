@@ -4,14 +4,14 @@ Landing page dùng HTML5, CSS3 và JavaScript thuần. Mở `index.html` bằng 
 
 ## Cấu trúc
 
-- `index.html`: navbar, hero, tám sản phẩm, giới thiệu và footer.
+- `index.html`: navbar, phần giới thiệu căn giữa, tám sản phẩm và footer.
 - `style.css`: Flexbox, Grid, media queries, hover và reduced motion.
 - `script.js`: tìm kiếm và giỏ hàng demo trong bộ nhớ; tải lại trang sẽ xóa giỏ hàng. Không có checkout hay thanh toán.
 - `images/`: tám ảnh PNG local, không phụ thuộc vào dịch vụ ảnh lúc chạy.
 
 ## Trạng thái thiết kế
 
-Figma trả về HTTP 403 khi thực hiện bài; trình duyệt cũng không cung cấp được canvas. Không có screenshot tham chiếu trong attachment ban đầu. Vì vậy **giao diện hiện tại là bản tạm theo yêu cầu nội dung và responsive, chưa xác minh khớp Figma**. Màu, font, hero, khoảng cách, icon và vị trí Hot/New/Sale cần đối chiếu khi có bản export. Ảnh thay thế minh họa loại sản phẩm, không phải ảnh gốc hoặc ảnh chính xác của các model giả định trong đề.
+Đã chỉnh lại theo screenshot desktop Figma do người dùng cung cấp: tiêu đề “Unleash the Next Level” căn giữa; logo tím dạng các lớp xếp; nền sản phẩm xám nhạt; giá tím; nút xanh đen toàn chiều rộng; Hot ở chuột, Sale ở đồng hồ/đèn và New ở màn hình. Giữ nguyên tỉ lệ ảnh với object-fit: contain. Đã tìm được ảnh stock tương ứng cho chuột đen và tai nghe nền vàng. Ảnh chân đế laptop vẫn là ảnh thay thế (screenshot mẫu dùng ảnh máy đánh chữ). Chưa có screenshot riêng của frame 1024px và 768px hoặc file export nên chưa xác minh chính xác font, thông số và hai frame đó. Figma trực tiếp vẫn trả HTTP 403.
 
 Tham chiếu: https://www.figma.com/design/ZJ8VO4OBkr6HNWOLq75zKr/e-commerce?node-id=0-1
 
@@ -27,17 +27,17 @@ Tham chiếu: https://www.figma.com/design/ZJ8VO4OBkr6HNWOLq75zKr/e-commerce?nod
 | 430px | 2 | Không | Đủ | Đạt |
 | 375px | 2 | Không | Đủ | Đạt |
 
-Kiểm tra thêm: tám sản phẩm; navbar Flexbox và sticky khi cuộn; nút Add to Cart cao tối thiểu 44px; tổng tiền, xóa giỏ hàng, tìm kiếm có/không có kết quả, phím Escape; không có lỗi JavaScript hoặc HTTP asset. Đã xem ảnh chụp toàn trang desktop/mobile. Chưa kiểm tra trên thiết bị thật hoặc so sánh Figma.
+Kiểm tra thêm: tám sản phẩm; navbar Flexbox và sticky khi cuộn; nút Add to Cart cao tối thiểu 44px; tổng tiền, xóa giỏ hàng, tìm kiếm có/không có kết quả, phím Escape; không có lỗi JavaScript hoặc HTTP asset. Đã xem ảnh chụp toàn trang desktop/mobile. Đã đối chiếu bố cục desktop với screenshot Figma vừa cung cấp; chưa kiểm tra trên thiết bị thật.
 
 ## Nguồn ảnh thay thế
 
-Ảnh từ Unsplash, resize/crop về 800 × 600 và chuyển sang PNG. [Điều khoản sử dụng Unsplash](https://unsplash.com/license).
+Ảnh từ Unsplash, thu nhỏ và chuyển sang PNG; giữ tỉ lệ gốc cho các ảnh khớp mẫu. [Điều khoản sử dụng Unsplash](https://unsplash.com/license).
 
 | File | Nguồn |
 | --- | --- |
-| mouse.png | https://images.unsplash.com/photo-1527814050087-3793815479db |
+| mouse.png | https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7 |
 | keyboard.png | https://images.unsplash.com/photo-1587829741301-dc798b83add3 |
-| headphone.png | https://images.unsplash.com/photo-1546435770-a3e426bf472b |
+| headphone.png | https://images.unsplash.com/photo-1505740420928-5e560c06d30e |
 | smartwatch.png | https://images.unsplash.com/photo-1523275335684-37898b6baf30 |
 | monitor.png | https://images.unsplash.com/photo-1527443224154-c4a3942d3acf |
 | microphone.png | https://images.unsplash.com/photo-1590602847861-f357a9332bbc |
