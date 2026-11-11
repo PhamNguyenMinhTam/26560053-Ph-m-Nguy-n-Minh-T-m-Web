@@ -11,7 +11,7 @@ Landing page dùng HTML5, CSS3 và JavaScript thuần. Mở `index.html` bằng 
 
 ## Trạng thái thiết kế
 
-Đã chỉnh lại theo screenshot desktop Figma do người dùng cung cấp: tiêu đề “Unleash the Next Level” căn giữa; logo tím dạng các lớp xếp; nền sản phẩm xám nhạt; giá tím; nút xanh đen toàn chiều rộng; Hot ở chuột, Sale ở đồng hồ/đèn và New ở màn hình. Giữ nguyên tỉ lệ ảnh với object-fit: contain. Đã tìm được ảnh stock tương ứng cho chuột đen và tai nghe nền vàng. Ảnh chân đế laptop vẫn là ảnh thay thế (screenshot mẫu dùng ảnh máy đánh chữ). Chưa có screenshot riêng của frame 1024px và 768px hoặc file export nên chưa xác minh chính xác font, thông số và hai frame đó. Figma trực tiếp vẫn trả HTTP 403.
+Đã chỉnh lại theo screenshot desktop Figma do người dùng cung cấp: tiêu đề “Unleash the Next Level” căn giữa; logo tím dạng các lớp xếp; nền sản phẩm xám nhạt; giá tím; nút xanh đen toàn chiều rộng; Hot ở chuột, Sale ở đồng hồ/đèn và New ở màn hình. Giữ nguyên tỉ lệ ảnh với object-fit: contain. Đã tìm được ảnh stock tương ứng cho chuột đen và tai nghe nền vàng. Đã đọc ảnh tham chiếu ba frame 1920/1024/768px trong trang 14 của PDF bài tập do người dùng chỉ ra. Đã chỉnh vùng ảnh tự co theo tỉ lệ ở 1024px, vùng ảnh cao 260px ở 768px và giữ cỡ tiêu đề tablet như desktop. Ảnh máy đánh chữ “Update” trong thẻ cuối được dùng theo mẫu (tên và giá chân đế vẫn giữ theo đề). Không sao chép PDF vào repository. Font và thông số được ước lượng từ ảnh raster; chưa lấy được thông số trực tiếp từ Figma vì HTTP 403.
 
 Tham chiếu: https://www.figma.com/design/ZJ8VO4OBkr6HNWOLq75zKr/e-commerce?node-id=0-1
 
@@ -27,11 +27,11 @@ Tham chiếu: https://www.figma.com/design/ZJ8VO4OBkr6HNWOLq75zKr/e-commerce?nod
 | 430px | 2 | Không | Đủ | Đạt |
 | 375px | 2 | Không | Đủ | Đạt |
 
-Kiểm tra thêm: tám sản phẩm; navbar Flexbox và sticky khi cuộn; nút Add to Cart cao tối thiểu 44px; tổng tiền, xóa giỏ hàng, tìm kiếm có/không có kết quả, phím Escape; không có lỗi JavaScript hoặc HTTP asset. Đã xem ảnh chụp toàn trang desktop/mobile. Đã đối chiếu bố cục desktop với screenshot Figma vừa cung cấp; chưa kiểm tra trên thiết bị thật.
+Kiểm tra thêm: tám sản phẩm; navbar Flexbox và sticky khi cuộn; nút Add to Cart cao tối thiểu 44px; tổng tiền, xóa giỏ hàng, tìm kiếm có/không có kết quả, phím Escape; không có lỗi JavaScript hoặc HTTP asset. Đã xem ảnh chụp toàn trang desktop/mobile. Đã đối chiếu cả ba bố cục 1920/1024/768px với ảnh tham chiếu trong PDF; trang vẫn hiển thị đủ tám sản phẩm ở 768px dù ảnh mẫu chỉ chụp sáu thẻ đầu. Chưa kiểm tra trên thiết bị thật.
 
-## Nguồn ảnh thay thế
+## Nguồn ảnh
 
-Ảnh từ Unsplash, thu nhỏ và chuyển sang PNG; giữ tỉ lệ gốc cho các ảnh khớp mẫu. [Điều khoản sử dụng Unsplash](https://unsplash.com/license).
+Bảy ảnh sản phẩm từ Unsplash, thu nhỏ và chuyển sang PNG; giữ tỉ lệ gốc. [Điều khoản sử dụng Unsplash](https://unsplash.com/license). Ảnh Update trùng mẫu được lấy từ bản sao công khai có tên nguồn viarami/Pixabay bên dưới và hiển thị với khung cắt 3:2 bằng CSS.
 
 | File | Nguồn |
 | --- | --- |
@@ -42,7 +42,7 @@ Kiểm tra thêm: tám sản phẩm; navbar Flexbox và sticky khi cuộn; nút 
 | monitor.png | https://images.unsplash.com/photo-1527443224154-c4a3942d3acf |
 | microphone.png | https://images.unsplash.com/photo-1590602847861-f357a9332bbc |
 | lamp.png | https://images.unsplash.com/photo-1507473885765-e6ed057f782c |
-| laptop-stand.png | https://unsplash.com/photos/a-laptop-computer-sitting-on-top-of-a-desk-8Y4j0iovSuM |
+| laptop-stand.png | https://abronhillha.org.uk/data/1024x1024-viarami_update_5238325_1920_2026_03_25_16_27_34_909.jpg |
 
 ## GitHub Pages
 
