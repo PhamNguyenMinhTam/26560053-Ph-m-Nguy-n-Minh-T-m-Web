@@ -46,10 +46,10 @@ Kiểm tra thêm: tám sản phẩm; navbar Flexbox và sticky khi cuộn; nút 
 
 ## GitHub Pages
 
-Repository trống lúc clone, nhánh mặc định `main`; không có lab hoặc workflow hiện hữu để ghi đè. API Pages chưa xác nhận được cấu hình (HTTP 404). Không thay đổi cấu hình triển khai ngoài `Lab2/`.
+Repository trống lúc clone, nhánh mặc định `main`; không có lab hoặc workflow hiện hữu để ghi đè. GitHub Pages đã được bật bằng API với nguồn `main` và `/(root)`, HTTPS được bật. Không tạo workflow hoặc sửa file bên ngoài `Lab2/`.
 
-Sau khi push thành công, chủ repository có thể vào **Settings → Pages → Deploy from a branch → main → /(root)**. Cách này phục vụ toàn bộ repository và giữ các bài khác ở đường dẫn riêng.
+Cấu hình tương ứng: **Settings → Pages → Deploy from a branch → main → /(root)**. Cách này phục vụ toàn bộ repository và giữ các bài khác ở đường dẫn riêng. Các lần push tiếp theo lên `main` sẽ cập nhật Pages.
 
-URL dự kiến, **chưa xác nhận triển khai**:
+Đã xác minh ngày 11/11/2026: trang live, CSS, JavaScript và cả tám ảnh trả về HTTP 200.
 
 https://phamnguyenminhtam.github.io/26560053-Ph-m-Nguy-n-Minh-T-m-Web/Lab2/
